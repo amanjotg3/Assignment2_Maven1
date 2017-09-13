@@ -37,7 +37,7 @@ public class PaymentServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		
-		System.out.println("Payment Servlet called");
+		System.out.println("  Payment Servlet called");
 		Payment payment = new Payment();
 		payment.setTimeIn(request.getParameter("ti"));
 		payment.setTimeOut(request.getParameter("to"));
